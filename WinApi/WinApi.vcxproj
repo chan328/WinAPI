@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="WndProc.cpp" />
     <ClCompile Include="메시지 루프.cpp" />
     <ClCompile Include="예제.cpp" />
     <ClCompile Include="윈도우 클래스.cpp" />
