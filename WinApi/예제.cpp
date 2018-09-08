@@ -17,8 +17,8 @@ int APIENTRY WinMain(HINSTANCE hInstance/*프로그램의 인스턴스 핸들, 프로그램 자�
 
 	WndClass.cbClsExtra = 0;
 	WndClass.cbWndExtra = 0;
-	WndClass.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
-	WndClass.hCursor = LoadCursor(NULL, IDC_ARROW);
+	WndClass.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH); // 배경색 바꾸기 참조
+	WndClass.hCursor = LoadCursor(NULL, IDC_CROSS);
 	WndClass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
 	WndClass.hInstance = hInstance;
 	WndClass.lpfnWndProc = (WNDPROC)WndProc;
