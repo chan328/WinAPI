@@ -27,8 +27,8 @@ int APIENTRY WinMain(HINSTANCE hInstance/*프로그램의 인스턴스 핸들, 프로그램 자�
 	WndClass.style = CS_HREDRAW | CS_VREDRAW;
 	RegisterClass(&WndClass);
 
-	hWnd = CreateWindow(lpszClass, lpszClass, WS_OVERLAPPEDWINDOW,
-		CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
+	hWnd = CreateWindow(lpszClass, L"Test", WS_OVERLAPPEDWINDOW,
+		100, 100, 300, 200,
 		NULL, (HMENU)NULL, hInstance, NULL);
 	ShowWindow(hWnd, nCmdShow);
 
