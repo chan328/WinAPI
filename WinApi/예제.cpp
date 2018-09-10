@@ -1,4 +1,10 @@
 #include <windows.h>
+#define WS_OVERLAPPEDWINDOW (WS_OVERLAPPED     | \
+                             WS_CAPTION        | \
+                             WS_SYSMENU        | \
+                             WS_THICKFRAME     | \
+                             WS_MINIMIZEBOX    | \
+                             WS_MAXIMIZEBOX)
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 HINSTANCE g_hInst;

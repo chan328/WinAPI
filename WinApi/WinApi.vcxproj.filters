@@ -42,5 +42,11 @@
     <ClCompile Include="윈도우 스타일.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 출력.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
