@@ -15,7 +15,7 @@ int APIENTRY WinMain(HINSTANCE hInstance/*프로그램의 인스턴스 핸들, 프로그램 자�
 	, LPSTR lpszCmdParam, 
 	int nCmdShow/*프로그램이 실행될 형태이며 최소화, 보통모양 등이 전달됨*/)
 {
-	HWND hWnd;
+	HWND hWnd; // 윈도우 핸들을 이러한 윈도우를 제어할 때 쓰는 이름표라고 생각하면 되겠다.
 	MSG Message;
 	WNDCLASS WndClass;
 	g_hInst = hInstance; // WinMain의 인수로 전달된 hinstance값을 전역 변수 g_hlsnt에 대입
