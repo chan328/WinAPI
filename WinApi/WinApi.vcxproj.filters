@@ -87,5 +87,11 @@
     <ClCompile Include="두개의 타이머.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="콜백 함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="윈도우 생성및 파괴.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
