@@ -96,5 +96,11 @@
     <ClCompile Include="작업 영역.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="WM_SIZE.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ApiStart.txt" />
   </ItemGroup>
 </Project>
